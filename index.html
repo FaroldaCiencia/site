@@ -1,5 +1,38 @@
-<div id="header"></div>
-<main>
-    <!-- Conteúdo principal -->
-</main>
-<div id="footer"></div>
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-i18n="titulo_principal">Farol da Ciência</title>
+    <meta name="description" content="Consultoria Científica e Acadêmica">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="assets/img/favicon.ico">
+</head>
+<body>
+    <div id="header"></div>
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <h1 data-i18n="titulo_principal">Farol da Ciência</h1>
+                <p class="subtitle" data-i18n="descricao_principal">Consultoria Científica e Acadêmica</p>
+                <a href="servicos.html" class="btn-primary" data-i18n="botao_saiba_mais">Saiba Mais</a>
+            </div>
+        </section>
+
+        <section class="destaques">
+            <div class="container">
+                <h2 data-i18n="titulo_destaques">Destaques</h2>
+                <div id="destaques-container" class="grid-3">
+                    <!-- Preenchido via JS com dados do JSON -->
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <div id="footer"></div>
+
+    <script src="js/i18n.js"></script>
+    <script src="js/site.js"></script>
+</body>
+</html>
