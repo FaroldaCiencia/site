@@ -1,3 +1,4 @@
+```
 /
 ├── index.html          # Única página
 ├── CNAME
@@ -25,3 +26,4 @@
 └── assets/
     ├── img/
     └── fonts/
+```
