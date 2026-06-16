@@ -1,10 +1,25 @@
-<header>
-    <h1>Farol da Ciência</h1>
-    <nav>
-        <a href="/">Início</a>
-        <a href="/sobre.html">Sobre</a>
-        <a href="/servicos.html">Serviços</a>
-        <a href="/recursos.html">Recursos</a>
-        <a href="/contato.html">Contato</a>
-    </nav>
+<header class="site-header">
+    <div class="container header-flex">
+        <div class="logo">
+            <a href="#inicio">
+                <img src="assets/img/logo.png" alt="Farol da Ciência" height="50">
+            </a>
+        </div>
+        <nav class="main-nav">
+            <ul>
+                <li><a href="#inicio" data-i18n="nav_inicio" class="active">Início</a></li>
+                <li><a href="#sobre" data-i18n="nav_sobre">Sobre</a></li>
+                <li><a href="#servicos" data-i18n="nav_servicos">Serviços</a></li>
+                <li><a href="#recursos" data-i18n="nav_recursos">Recursos</a></li>
+                <li><a href="#contato" data-i18n="nav_contato">Contato</a></li>
+            </ul>
+        </nav>
+        <div class="lang-switcher">
+            <button onclick="switchLanguage('pt')" class="lang-btn active">PT</button>
+            <button onclick="switchLanguage('en')" class="lang-btn">EN</button>
+        </div>
+        <button class="menu-toggle" aria-label="Menu">
+            <i class="fas fa-bars"></i>
+        </button>
+    </div>
 </header>
