@@ -1,0 +1,14 @@
+{
+    "servicos": [
+        {
+            "id": 1,
+            "titulo": "Revisão de Artigos",
+            "descricao": "Revisão completa de artigos científicos para periódicos de alto impacto."
+        },
+        {
+            "id": 2,
+            "titulo": "Consultoria em Metodologia",
+            "descricao": "Auxílio na definição e aplicação de metodologias de pesquisa."
+        }
+    ]
+}
